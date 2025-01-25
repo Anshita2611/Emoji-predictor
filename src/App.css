@@ -1,0 +1,35 @@
+/* Styling for Editor */
+.editor-container {
+  position: relative;
+  width: 60%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: #f9f9f9;
+}
+
+/* Emoji Suggestions Box */
+.emoji-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  gap: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.emoji-item {
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.emoji-item:hover {
+  transform: scale(1.2);
+}
