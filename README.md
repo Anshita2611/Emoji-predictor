@@ -14,8 +14,8 @@ Make sure you have Node.js and npm installed on your machine. You can download t
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Anshita2611/predictive-emoji-reactions.git
-    cd predictive-emoji-reactions
+    git clone https://github.com/Anshita2611/Emoji-predictor.git
+    cd emoji-predictor
     ```
 
 2. Install the dependencies:
